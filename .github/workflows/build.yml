@@ -41,3 +41,4 @@ jobs:
         with:
           name: vane-${{ matrix.project }}-${{ env.git_hash }}.jar
           path: target/vane-${{ matrix.project }}-*.jar
+          archive: false
